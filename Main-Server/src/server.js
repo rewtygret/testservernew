@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
-const hostname ='0.0.0.0';
+const hostname ='10.173.10.56';
 const PORT = process.env.PORT || 2000;
 
 // Serve a simple HTML page to test WebSocket connection
